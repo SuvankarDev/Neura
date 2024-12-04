@@ -1,0 +1,101 @@
+/* Invoice List Styles */
+.invoice-list {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-list h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.invoice-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.invoice-list li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-list li h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.invoice-list li p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.invoice-list .buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+.invoice-list .buttons button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.invoice-list .buttons button:hover {
+  background-color: #0056b3;
+}
+
+.invoice-list .buttons button.delete-btn {
+  background-color: #dc3545;
+}
+
+.invoice-list .buttons button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.invoice-list .buttons button.edit-btn {
+  background-color: #ffc107;
+}
+
+.invoice-list .buttons button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.create-invoice-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-invoice-btn:hover {
+  background-color: #218838;
+}

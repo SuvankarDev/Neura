@@ -1,0 +1,140 @@
+/* Global Body Styles */
+body {
+  background-color: #121212;
+}
+
+form {
+  max-width: 600px; /* Restricts the width of the form */
+  margin: 50px auto; /* Centers the form horizontally and adds vertical spacing */
+  padding: 20px;
+  border: 2px solid white; /* Adds a solid border around the form */
+  border-radius: 10px; /* Rounded corners for the border */
+  background-color: #1e1e1e; /* Dark grey form background */
+  color: #ffffff; /* White text for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for elevation */
+  width: 100%; /* Ensures the form doesn't overflow horizontally */
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+}
+
+/* Form Heading Style */
+h1 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Customer Name Field Font Size */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 2rem; /* Slightly larger font size for Customer Name */
+  font-family: 'Verdana', sans-serif; /* Better font */
+  color: #f0f0f0; /* Light color for labels */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box; /* Prevents input fields from overflowing */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #444;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Line Items Section */
+.details-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.details-group input {
+  width: 100%;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: auto; /* Set width to auto to make the buttons align horizontally */
+  margin: 5px auto; /* Center buttons and add space between them */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #a71d2a;
+}
+
+/* Add Detail Button */
+button[type="button"]:last-of-type {
+  margin-bottom: 20px;
+}
+
+/* Spacing Between Buttons */
+button + button {
+  margin-left: 10px; /* Adds space between buttons */
+}
+
+/* Optional: Back Button */
+button[type="button"].back-button {
+  background-color: #6c757d;
+}
+
+button[type="button"].back-button:hover {
+  background-color: #5a6268;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #f44336;
+  color: white;
+}
